@@ -1,9 +1,18 @@
-# 吃客行网站重构
+# 吃客行网站模仿
+
+Web期末作业
 
 ## 使用
 
-`pip install -r requirements.txt  -i https://mirrors.aliyun.com/pypi/simple/`
+安装依赖:`pip install -r requirements.txt  -i https://mirrors.aliyun.com/pypi/simple/`
 
+运行：
+1. `export FLASK_APP=app.py`
+2. `flask run --host=0.0.0.0`
+
+后台运行: `nohup flask run --host=0.0.0.0 > myweb.log 2>&1 &`
+
+访问:`http://localhost:5000`
 
 ## 需求分析
 
@@ -18,34 +27,13 @@
 
 前端: 
 
-- 三件套 
-- 组件库 Semantic UI 
+- 三件套 HTML+CSS+JavaScript
+- 组件库 BootStrap
 
 后端:
-- Python
+- Python 3.10
 - Flask(web框架)
-- MySQL
+- MySQL 5.7 
 
-部署: 服务器
-
-## 计划
-
-✔
-
-### 04-22
-
-初始化项目 
-
-1. 前端初始化 
-
-    - 初始化项目  ✔
-    - 引入一些组件之类的  ✔
-    - 框架瘦身 ✔
-
-2. 后端初始化  
-
-    - 准备环境（MySQL 之类的）验证 MySQL 是否安装成功 - 连接一下 ✔
-    - 初始化后端项目，引入框架（整合框架）✔
-### 04-24
-1. BootStrap组件使用
-2. GitHub项目提交流程
+部署: 
+-  Nginx+FastCGI
