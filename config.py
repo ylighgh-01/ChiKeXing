@@ -20,9 +20,9 @@ MAIL_PORT = 465
 MAIL_USE_TLS = False
 MAIL_USE_SSL = True
 MAIL_DEBUG = True
-MAIL_USERNAME = '475254161@qq.com'
-MAIL_PASSWORD = 'xyozqcchfaqibhdb'
-MAIL_DEFAULT_SENDER = '475254161@qq.com'
+MAIL_USERNAME = 'xxxxx1@qq.com'
+MAIL_PASSWORD = 'xxxxxx'
+MAIL_DEFAULT_SENDER = 'xxxxx@qq.com'
 
 # 文件上传
 BASE_DIR = os.path.dirname(__name__)
